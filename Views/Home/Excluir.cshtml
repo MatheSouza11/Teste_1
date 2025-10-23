@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Excluir";
+}
+
+<h1>Excluir</h1>
+
+<div class="text-center">
+
+    <form method="post" asp-action="Excluir">
+       <label>Id: </label>
+       <input type="number" name="idLogin" />
+       <label>Usuario:  </label>
+       <input type="text" name="usuario"/>
+       <label>Senha: </label>
+       <input type="text" name="senha"/>
+       <button action="submit">Excluir</button>
+    </form>
+</div>
